@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bfa54290563916f4286f9848c7f154e1, type: 3}
+  m_Name: Enemy
+  m_EditorClassIdentifier: Assembly-CSharp::EnemyData
+  enemyID: 0
+  enemyName: Enemy
+  description: 
+  respawnTime: 5
+  maxHP: 50
+  bodyType: 1
+  attackDamage: 1
+  attackRate: 1.5
+  attackRange: 1
+  attackOffset: 0.8
+  attackBoxSize: {x: 1, y: 1}
+  knockbackForce: 1
+  patrolSpeed: 1
+  chaseSpeed: 2
+  wanderRadius: 3
+  detectionRange: 3
+  giveUpRange: 5
+  guaranteedDrops: []
+  chanceDrops: []
+  prefab: {fileID: 0}
+  hitSound: {fileID: 0}
+  dieSound: {fileID: 0}

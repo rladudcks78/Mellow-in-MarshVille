@@ -1,0 +1,223 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a509869350899b74f8e1842a034a1450, type: 3}
+  m_Name: SoundLibrary
+  m_EditorClassIdentifier: Assembly-CSharp::SoundLibrary
+  bgms:
+  - id: 1
+    clips:
+    - {fileID: 8300000, guid: 910c37a28594f25459412567561b1074, type: 3}
+    volume: 1
+    loop: 1
+  - id: 2
+    clips:
+    - {fileID: 8300000, guid: 3401a114f2b0a5f4ab84b2443224af4c, type: 3}
+    - {fileID: 8300000, guid: 55150e47ad8a84a40b32aac9e953145b, type: 3}
+    volume: 1
+    loop: 1
+  - id: 3
+    clips:
+    - {fileID: 8300000, guid: cda1659bb97d9534a84e06560bd38319, type: 3}
+    - {fileID: 8300000, guid: 7b0c02312d39de34eba099b7ef1876f2, type: 3}
+    volume: 1
+    loop: 1
+  sfxs:
+  - id: 0
+    clips:
+    - {fileID: 0}
+    volume: 1
+    pitchMin: 1
+    pitchMax: 1
+  - id: 2
+    clips:
+    - {fileID: 8300000, guid: 1c4c86507bdec64409a205af0b33e43c, type: 3}
+    volume: 1
+    pitchMin: 1
+    pitchMax: 1
+  - id: 3
+    clips:
+    - {fileID: 8300000, guid: 18d7466340d03ef499942b40e6b51e50, type: 3}
+    volume: 1
+    pitchMin: 1
+    pitchMax: 1
+  - id: 4
+    clips:
+    - {fileID: 8300000, guid: 58dd27a4b6128684380504c7252d8787, type: 3}
+    volume: 1
+    pitchMin: 1
+    pitchMax: 1
+  - id: 5
+    clips:
+    - {fileID: 8300000, guid: 7a55abdf5633d564481d9f6fb059063f, type: 3}
+    volume: 0.095
+    pitchMin: 1
+    pitchMax: 1
+  - id: 6
+    clips:
+    - {fileID: 8300000, guid: 4befaa76939e42b42943e99f32adc4df, type: 3}
+    volume: 0.5
+    pitchMin: 1
+    pitchMax: 1
+  - id: 7
+    clips:
+    - {fileID: 8300000, guid: 1b38385799a656d46976309746d23ef3, type: 3}
+    volume: 0.5
+    pitchMin: 1
+    pitchMax: 1
+  - id: 8
+    clips:
+    - {fileID: 8300000, guid: bcd26f80baffc294dbd98847d0c14319, type: 3}
+    volume: 0.6
+    pitchMin: 1.51
+    pitchMax: 1
+  - id: 9
+    clips:
+    - {fileID: 8300000, guid: f3c47a17a94e9a1469cef52e2f3d6154, type: 3}
+    volume: 1
+    pitchMin: 1
+    pitchMax: 1
+  - id: 10
+    clips:
+    - {fileID: 0}
+    volume: 1
+    pitchMin: 1
+    pitchMax: 1
+  - id: 11
+    clips:
+    - {fileID: 8300000, guid: 99822f185f629dc4497a7efaefc2aa7a, type: 3}
+    volume: 0.34
+    pitchMin: 1
+    pitchMax: 1
+  - id: 12
+    clips:
+    - {fileID: 8300000, guid: e7b002066a1b1f247bd2fab68569dabe, type: 3}
+    volume: 1
+    pitchMin: 1
+    pitchMax: 1
+  - id: 13
+    clips:
+    - {fileID: 8300000, guid: 38f37f8b67f555340b24dc68108359ea, type: 3}
+    volume: 1
+    pitchMin: 1
+    pitchMax: 1
+  - id: 14
+    clips:
+    - {fileID: 8300000, guid: e7b002066a1b1f247bd2fab68569dabe, type: 3}
+    volume: 1
+    pitchMin: 1
+    pitchMax: 1
+  - id: 15
+    clips:
+    - {fileID: 8300000, guid: 1b2dc1f354678a84f8c154de8b8518c5, type: 3}
+    - {fileID: 8300000, guid: 779fbe2789a15da4ca0d001b0a9970dc, type: 3}
+    volume: 1
+    pitchMin: 1
+    pitchMax: 1
+  - id: 16
+    clips:
+    - {fileID: 8300000, guid: 2537d73f0080a834b8c3b6b2464ff1db, type: 3}
+    volume: 1
+    pitchMin: 1
+    pitchMax: 1
+  - id: 17
+    clips:
+    - {fileID: 8300000, guid: c8e6bf0da897fc84597d9beca8018c33, type: 3}
+    volume: 1
+    pitchMin: 1
+    pitchMax: 1
+  - id: 18
+    clips:
+    - {fileID: 8300000, guid: effa18544d4063142a708cd34dc3eb99, type: 3}
+    volume: 1
+    pitchMin: 1
+    pitchMax: 1
+  - id: 19
+    clips:
+    - {fileID: 8300000, guid: a795d9d56fecc74498d387711fff05db, type: 3}
+    volume: 0.4
+    pitchMin: 1
+    pitchMax: 1
+  - id: 20
+    clips:
+    - {fileID: 8300000, guid: 75f05a5c877b87d48bdc853d148901cd, type: 3}
+    volume: 0.337
+    pitchMin: 1
+    pitchMax: 1
+  - id: 21
+    clips:
+    - {fileID: 8300000, guid: 38f37f8b67f555340b24dc68108359ea, type: 3}
+    volume: 0.5
+    pitchMin: 1
+    pitchMax: 1
+  - id: 22
+    clips:
+    - {fileID: 8300000, guid: 59b9fca436c0b974382bdf34b0ca898e, type: 3}
+    volume: 0.4
+    pitchMin: 1
+    pitchMax: 1
+  - id: 36
+    clips:
+    - {fileID: 8300000, guid: 08eb3c0b0c9991140a323b2de077a9e2, type: 3}
+    volume: 1
+    pitchMin: 1
+    pitchMax: 1
+  - id: 37
+    clips:
+    - {fileID: 8300000, guid: fe97ef684aa854b4e92d973e0c78d4fb, type: 3}
+    volume: 0.5
+    pitchMin: 1
+    pitchMax: 1
+  - id: 38
+    clips:
+    - {fileID: 8300000, guid: d222151aa8b19b446b60b38704077847, type: 3}
+    volume: 0.3
+    pitchMin: 1
+    pitchMax: 1
+  - id: 39
+    clips:
+    - {fileID: 8300000, guid: 642c25f64bd23f54fa444d9ec09a25da, type: 3}
+    volume: 1
+    pitchMin: 1
+    pitchMax: 1
+  - id: 40
+    clips:
+    - {fileID: 8300000, guid: 5f6d1f96d3960a94fa05e5851d99c93b, type: 3}
+    - {fileID: 8300000, guid: b02816f899a8ba341af5c7da7caf386f, type: 3}
+    volume: 1
+    pitchMin: 1
+    pitchMax: 1
+  - id: 41
+    clips:
+    - {fileID: 8300000, guid: cd5bf985261d2a34290287ec8b8b93ad, type: 3}
+    - {fileID: 8300000, guid: ebf75976f970c9443a316d1369c94459, type: 3}
+    volume: 1
+    pitchMin: 1
+    pitchMax: 1
+  - id: 42
+    clips:
+    - {fileID: 8300000, guid: 9f5162582ea40374886f01df24008846, type: 3}
+    - {fileID: 8300000, guid: 8ca877c106eed3f46b1223fd94a0535f, type: 3}
+    volume: 1
+    pitchMin: 1
+    pitchMax: 1
+  - id: 43
+    clips:
+    - {fileID: 8300000, guid: ffc90e80927995447b3d30a162f831f0, type: 3}
+    volume: 0.5
+    pitchMin: 1
+    pitchMax: 1
+  - id: 46
+    clips:
+    - {fileID: 8300000, guid: 89ada726561ed2a47a614448e7b2c89f, type: 3}
+    volume: 0.5
+    pitchMin: 1
+    pitchMax: 1

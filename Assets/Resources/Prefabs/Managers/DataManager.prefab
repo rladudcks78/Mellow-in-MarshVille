@@ -1,0 +1,223 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &263693031540341935
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3493316835201664649}
+  - component: {fileID: 9178601171409693221}
+  - component: {fileID: 8272675324221997246}
+  - component: {fileID: 213154834377084808}
+  - component: {fileID: 5253494855187947951}
+  - component: {fileID: 4086436445329617050}
+  - component: {fileID: 6356979090267556092}
+  - component: {fileID: 5790327164389684561}
+  - component: {fileID: 4192571589021831732}
+  - component: {fileID: 3000661699485893362}
+  - component: {fileID: 2493328851501230132}
+  - component: {fileID: 6861168396338897099}
+  - component: {fileID: 2137399247291432387}
+  m_Layer: 0
+  m_Name: DataManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3493316835201664649
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 263693031540341935}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 978.261, y: 428.81415, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &9178601171409693221
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 263693031540341935}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 391b3c93fd671ff4aabfb71d93274645, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ItemLoader
+  itemCsvUrl: https://docs.google.com/spreadsheets/d/e/2PACX-1vREdb6lUB41OYRptW_njj2_wJWnciEOPxHjkR1RzcHEXAVsWo7Px7hJyFteRvVDJoBYK0RfDvGBPdJ3/pub?gid=0&single=true&output=csv
+--- !u!114 &8272675324221997246
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 263693031540341935}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f23b274d15a11e45912d38fa47986d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::RecipeLoader
+  recipeCsvUrl: https://docs.google.com/spreadsheets/d/e/2PACX-1vREdb6lUB41OYRptW_njj2_wJWnciEOPxHjkR1RzcHEXAVsWo7Px7hJyFteRvVDJoBYK0RfDvGBPdJ3/pub?gid=745008636&single=true&output=csv
+--- !u!114 &213154834377084808
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 263693031540341935}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 793ed9556057e3449808af38111f53bd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::QuestLoader
+  questCsvUrl: https://docs.google.com/spreadsheets/d/e/2PACX-1vREdb6lUB41OYRptW_njj2_wJWnciEOPxHjkR1RzcHEXAVsWo7Px7hJyFteRvVDJoBYK0RfDvGBPdJ3/pub?gid=904514372&single=true&output=csv
+  loadOnStart: 1
+  cacheBustUrl: 1
+  sendNoCacheHeaders: 1
+--- !u!114 &5253494855187947951
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 263693031540341935}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e5677ed50d4efc24192b42ade7716979, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::NpcLoader
+  npcCsvUrl: https://docs.google.com/spreadsheets/d/e/2PACX-1vREdb6lUB41OYRptW_njj2_wJWnciEOPxHjkR1RzcHEXAVsWo7Px7hJyFteRvVDJoBYK0RfDvGBPdJ3/pub?gid=1485210015&single=true&output=csv
+  loadOnStart: 1
+  cacheBustUrl: 1
+  sendNoCacheHeaders: 1
+--- !u!114 &4086436445329617050
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 263693031540341935}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f7f6e7ef03febdc43b1624c1951b6833, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::NpcDialogueLoader
+  dialogueCsvUrl: https://docs.google.com/spreadsheets/d/e/2PACX-1vREdb6lUB41OYRptW_njj2_wJWnciEOPxHjkR1RzcHEXAVsWo7Px7hJyFteRvVDJoBYK0RfDvGBPdJ3/pub?gid=1507963802&single=true&output=csv
+  loadOnStart: 1
+  cacheBustUrl: 1
+  sendNoCacheHeaders: 1
+--- !u!114 &6356979090267556092
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 263693031540341935}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 51c11aceb18c4dd4189323c297a14e53, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GiftTasteLoader
+  giftTasteCsvUrl: https://docs.google.com/spreadsheets/d/e/2PACX-1vREdb6lUB41OYRptW_njj2_wJWnciEOPxHjkR1RzcHEXAVsWo7Px7hJyFteRvVDJoBYK0RfDvGBPdJ3/pub?gid=370376727&single=true&output=csv
+  loadOnStart: 1
+  cacheBustUrl: 1
+  sendNoCacheHeaders: 1
+  timeoutSeconds: 10
+--- !u!114 &5790327164389684561
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 263693031540341935}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a19ca20c25f2ba4aab97db023dd2dc9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GiftReactionLoader
+  giftReactionCsvUrl: https://docs.google.com/spreadsheets/d/e/2PACX-1vREdb6lUB41OYRptW_njj2_wJWnciEOPxHjkR1RzcHEXAVsWo7Px7hJyFteRvVDJoBYK0RfDvGBPdJ3/pub?gid=895613712&single=true&output=csv
+  loadOnStart: 1
+  cacheBustUrl: 1
+  sendNoCacheHeaders: 1
+  timeoutSeconds: 10
+--- !u!114 &4192571589021831732
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 263693031540341935}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f8b5e42c4500be4fb22bf7a01a5c531, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SkillLoader
+  skillCsvUrl: https://docs.google.com/spreadsheets/d/e/2PACX-1vREdb6lUB41OYRptW_njj2_wJWnciEOPxHjkR1RzcHEXAVsWo7Px7hJyFteRvVDJoBYK0RfDvGBPdJ3/pub?gid=821813558&single=true&output=csv
+--- !u!114 &3000661699485893362
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 263693031540341935}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4514fa998d4c9d443a30b787ab760f5e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::NpcDialogueLinkLoader
+  linksCsvUrl: https://docs.google.com/spreadsheets/d/e/2PACX-1vREdb6lUB41OYRptW_njj2_wJWnciEOPxHjkR1RzcHEXAVsWo7Px7hJyFteRvVDJoBYK0RfDvGBPdJ3/pub?gid=1075134272&single=true&output=csv
+  loadOnStart: 1
+  cacheBustUrl: 1
+  sendNoCacheHeaders: 1
+--- !u!114 &2493328851501230132
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 263693031540341935}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 55341f0164a7a6c4984d066ca2a6b860, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CropLoader
+  _csvUrl: https://docs.google.com/spreadsheets/d/e/2PACX-1vREdb6lUB41OYRptW_njj2_wJWnciEOPxHjkR1RzcHEXAVsWo7Px7hJyFteRvVDJoBYK0RfDvGBPdJ3/pub?gid=1950891341&single=true&output=csv
+  _spriteResolver: {fileID: 0}
+--- !u!114 &6861168396338897099
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 263693031540341935}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbaa41900335b2f4d9a06a831d4a0d55, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::FoodLoader
+  foodCsvUrl: https://docs.google.com/spreadsheets/d/e/2PACX-1vREdb6lUB41OYRptW_njj2_wJWnciEOPxHjkR1RzcHEXAVsWo7Px7hJyFteRvVDJoBYK0RfDvGBPdJ3/pub?gid=1860431176&single=true&output=csv
+--- !u!114 &2137399247291432387
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 263693031540341935}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5dd8b7031ecc0d54eac4b210714e846b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::FishLoader
+  fishCsvUrl: https://docs.google.com/spreadsheets/d/e/2PACX-1vREdb6lUB41OYRptW_njj2_wJWnciEOPxHjkR1RzcHEXAVsWo7Px7hJyFteRvVDJoBYK0RfDvGBPdJ3/pub?gid=1854953986&single=true&output=csv
+  rateCsvUrl: https://docs.google.com/spreadsheets/d/e/2PACX-1vREdb6lUB41OYRptW_njj2_wJWnciEOPxHjkR1RzcHEXAVsWo7Px7hJyFteRvVDJoBYK0RfDvGBPdJ3/pub?gid=940719036&single=true&output=csv

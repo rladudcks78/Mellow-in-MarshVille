@@ -1,0 +1,117 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8587918568638796140
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3687599155629503706}
+  - component: {fileID: 8442777663465771893}
+  - component: {fileID: 5214579876987957360}
+  - component: {fileID: 531952284545471786}
+  m_Layer: 0
+  m_Name: 'UIManager '
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3687599155629503706
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8587918568638796140}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 947.86084, y: 488.4339, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8442777663465771893
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8587918568638796140}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 884f63d75f74a3d4aa7024869cacb4da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::AffectionUI
+  affectionPanel: {fileID: 0}
+  npcNameText: {fileID: 0}
+  hearts:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  emptyHeart: {fileID: 21300064, guid: 2700e06d970d112489ff23cfb58c3f78, type: 3}
+  halfHeart: {fileID: 21300066, guid: 2700e06d970d112489ff23cfb58c3f78, type: 3}
+  fullHeart: {fileID: 21300070, guid: 2700e06d970d112489ff23cfb58c3f78, type: 3}
+--- !u!114 &5214579876987957360
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8587918568638796140}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0553bbb57f7e0114fb301eebe4141aab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::QuestUICsv
+  rootPanel: {fileID: 0}
+  titleText: {fileID: 0}
+  listContainer: {fileID: 0}
+  questRowPrefab: {fileID: 6980580282268955798, guid: 1d9e3c59e99ab0c42ae29a8a25335a1d, type: 3}
+  detailPanel: {fileID: 0}
+  questNameText: {fileID: 0}
+  questDescText: {fileID: 0}
+  questGoalText: {fileID: 0}
+  questRewardText: {fileID: 0}
+  questStateText: {fileID: 0}
+  actionButton: {fileID: 0}
+  actionButtonText: {fileID: 0}
+  closeButton: {fileID: 0}
+  itemLoader: {fileID: 0}
+  toggleOnQ: 1
+  closeOnEsc: 1
+--- !u!114 &531952284545471786
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8587918568638796140}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d6b7c47f038365a4db5de9b7cdf080b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::QuestPopupUI
+  rootPanel: {fileID: 0}
+  titleText: {fileID: 0}
+  listContainer: {fileID: 0}
+  questRowPrefab: {fileID: 6980580282268955798, guid: 1d9e3c59e99ab0c42ae29a8a25335a1d, type: 3}
+  detailPanel: {fileID: 0}
+  questNameText: {fileID: 0}
+  questDescText: {fileID: 0}
+  questGoalText: {fileID: 0}
+  questRewardText: {fileID: 0}
+  questStateText: {fileID: 0}
+  actionButton: {fileID: 0}
+  actionButtonText: {fileID: 0}
+  leaveButton: {fileID: 0}
+  inventorySystem: {fileID: 0}
+  npcLoader: {fileID: 0}
+  itemLoader: {fileID: 0}
+  closeOnEsc: 1
+  debugMode: 0
